@@ -13,6 +13,7 @@ IF NOT EXISTS
 	[brand_counter_code] [nvarchar](100) NULL,
 	[external_deal_guid] [uniqueidentifier] NOT NULL,
 	[bid] [uniqueidentifier] NOT NULL,
+	[product_code] [nvarchar](50) NULL,
 	[delivery_product_code] [nvarchar](50) NULL,
 	[item_name] [nvarchar](200) NOT NULL,
 	[sku_name] [nvarchar](200) NULL,
