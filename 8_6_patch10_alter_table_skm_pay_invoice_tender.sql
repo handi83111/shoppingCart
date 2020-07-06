@@ -7,5 +7,5 @@ IF NOT EXISTS
 )
     BEGIN
         ALTER TABLE [dbo].[skm_pay_invoice_tender_detail]
-        ADD [sell_order_no_s] [int] NULL
+        ADD [sell_order_no_s] varchar(50) null 
 END;
